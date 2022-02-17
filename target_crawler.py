@@ -25,7 +25,7 @@ print(f"The total number of navigation(s) is: {number_of_items[-2:]}")
 def save_data(product_list):
     data = pd.DataFrame(product_list, columns=['Product Name', "Product Price" ,"Product Description", "Product Link", "Product Image Link"])
     os.makedirs('WomenListFolderDec', exist_ok=True)  
-    data.to_csv('WomenListFolderDec/women_clothes_data10.csv', mode='a', header = False)
+    data.to_csv('WomenListFolderDec/women_clothes_data11.csv', mode='a', header = False)
 
 
 for s in range(1,(int(number_of_items[-2:])+1)):
